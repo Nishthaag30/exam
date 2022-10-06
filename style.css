@@ -1,0 +1,182 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#header_img span{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-left: 100px;
+}
+#header_con ul{
+    display: flex;
+    gap: 20px;
+}
+#header_con ul li{
+    list-style: none;
+    font-size: 20px;
+}
+#header_but{
+    border: 3px rgb(71, 172, 168) solid;
+    border-radius: 30px;
+    height: 50px;
+    width: 140px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(71, 172, 168);
+}
+
+#header_con ul li a:hover{
+    color:rgb(63, 63, 200);
+}
+#header_but:hover{
+    background-color: rgb(71, 172, 168);
+    color: white;
+}
+#blog_content{
+    height: 100px;
+    background-color: rgb(244, 223, 250);
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#blog_content h1{
+    color: blue;
+    font-size: 30px;
+    margin-left: 20px;
+}
+#blog_content p{
+    color: black;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.imag{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 100px;
+    justify-content:space-evenly;
+    display: flex;
+}
+.imag div{
+    height: 250px;
+    width: 390px;
+    border-radius: 20px;
+}
+.imag div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+#secomnd_last{
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    background-color:rgb(1, 100, 100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+#secomnd_last h3{
+    color: aqua;
+    font-size: 30px;
+    font-weight: 300px;
+}
+#secomnd_last h1{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 600px;
+
+}
+#secomnd_last p{
+    text-align: center;
+    margin-top: 20px;
+    opacity: 50%;
+    font-size: 20px;
+}
+#secomnd_last a{
+    margin-top: 20px;
+    border: 3px rgb(79, 185, 185) solid;
+    border-radius: 30px;
+    height: 50px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(46, 189, 189);
+}
+#secomnd_last a:hover{
+    background-color: rgb(71, 208, 203);
+    color: white;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+footer .didi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .didi h1{
+    font-size: 35px;
+    font-weight: 300px;
+    margin-top: 20px;
+}
+footer .didi p{
+    margin-top: 21px;
+    opacity: 50%;
+}
+.div3 input{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    border: 2px rgb(51, 197, 197) solid;
+    background: transparent;
+    border-radius: 30px;
+}
+.div3 p{
+    font-size: 23px;
+}
+.div3 a{
+    margin-top: 20px;
+    border: 3px rgb(79, 185, 185) solid;
+    border-radius: 30px;
+    height: 50px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(46, 189, 189);
+}
+.div3 a:hover{
+    background-color: rgb(71, 208, 203);
+    color: white;
+}
